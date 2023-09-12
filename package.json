@@ -1,0 +1,25 @@
+{
+  "name": "ChatPayAssistant",
+  "version": "1.0.0",
+  "description": "A ChatGPT clone with integrated USDC micro-payment system",
+  "main": "pages/index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/juniorvish/ChatPayAssistant.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "latest",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "@solana/web3.js": "^1.10.0",
+    "axios": "^0.21.1",
+    "tailwindcss": "^2.2.16"
+  }
+}
